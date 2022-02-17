@@ -1,0 +1,487 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Navbar section */
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: white;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 64px;
+   padding-left: 24px;
+}
+
+#colmar {
+  color: rgb(48, 78, 78);
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav span {
+    display: inline-block;
+    padding-right: 24px;
+    padding: 20px 10px;
+  }
+
+nav a {
+    font-size: 26px;
+    word-spacing: 16px;
+    padding-right: 24px;
+    font-family: Tahoma;
+    font-weight: lighter;
+    color: darkslategray;
+}
+
+strong {
+    font-size: 36px;
+    color: darkslategrey
+    font-family: Tahoma;
+}
+
+p {
+    font-size: 36px;
+    color: grey;
+    font-family: Tahoma;
+    font-weight: lighter;
+    margin-top: 0.19cm;
+}
+
+
+  /* Banner section */
+
+#banner {
+  background-color: lightgray;
+  height: 940px;
+  width: 100%;
+  
+}
+
+#banner img {
+  margin-top: 97px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  padding-right: 24px; 
+  height: 750px;
+  width: 55%;
+  display: inline-block;
+}
+
+#banner .content {
+  margin: auto;    
+  background-color: lightgray;
+  font-size: 33px;
+  font-family: Verdana;
+  color: darkslategrey;
+}
+
+#banner .content h1 {
+  font-size: 57px;
+  font-family: Verdana;
+  line-height: 67px;
+}
+
+#banner .content h2 {
+  font-size: 31px;
+  font-weight: bold;
+}
+
+#banner .content #button {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  font-size: 29px;
+  height: 74px;
+  font-family: Verdana;
+  color: white;
+  background-color: darkslategrey;
+  box-sizing: border-box;
+}
+
+  /* Main section */
+ 
+
+#main {
+  width: 1700px;
+  length: 2000px;
+  display: flex;
+}  
+
+#main .box {
+  display: inline;
+  height: 200px;
+  margin-top: 4px;
+  padding: 30px auto;
+  text-align: left;
+  width: 1815px;
+  padding-bottom: 32px;
+  margin-bottom: 90px;
+}
+
+#main .guy {
+  padding-top: 61px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: block;
+}
+
+#main h1 {
+  padding-left: 39px;
+  font-size: 37px;
+  font-family: Tahoma;
+  color: darkslategrey;
+  position: relative;
+  bottom: 1px;
+}
+
+#main span {
+  font-size: 23px;
+  font-family: Tahoma;
+  font-weight: lighter;
+  color: darkslategrey;
+  display: block;
+  justify-content: center;
+  padding-left: 39px;
+}
+
+#main h6 {
+  color: rgb(45, 56, 56);
+  font-size: 20px;
+  font-family: Tahoma;
+  font-weight: lighter;
+  padding-left: 39px;
+}
+
+#success {
+  display: block;
+}
+
+#side {
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+  height: 300px;
+  width: 750px;
+  margin-top: 45px;
+  margin-bottom: 1px;
+  padding-right: 30px;
+  min-width: 735px;
+  display: flex;
+  justify-content: center;
+  float: right;
+}  
+
+#side .orientation{ 
+  align-items: center;
+  justify-content: flex-end;
+}
+
+img {
+  padding-top: 14px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.content {
+  line-height: 32px;
+  padding-left: 25px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: Tahoma;
+  color: darkslategrey;
+}
+
+.read {
+  color: rgb(6, 188, 248);
+  font-size: 25px;
+}
+
+#side-2 {
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+  height: 300px;
+  width: 750px;
+  margin-top: 19px;
+  padding-right: 30px;
+  min-width: 735px;
+  display: flex;
+  justify-content: center;
+}
+
+#side-3 {
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+  height: 300px;
+  width: 750px;
+  margin-top: 1px;
+  padding-right: 30px;
+  min-width: 735px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Start learning section */
+
+#startlearning {
+  margin-top: 80px;
+  length: 3000px;
+  background-color: lightgray;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-family: Tahoma;
+  padding-top: 65px;
+  padding-bottom: 60px;
+  color: rgb(30, 51, 51);
+  text-align: center;
+}
+
+#items-1 {
+  display: flex;
+  text-align:center ;
+  justify-content: center;
+}
+
+#items-1 .square-1 {
+  margin-right: 16px;
+  margin-bottom: 32px;
+  background-color: white;
+  box-sizing: content-box;
+  text-align: center;
+}
+
+#items-1 .square-2 {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 32px;
+  background-color: white;
+  box-sizing: content-box;
+  text-align: center;
+}
+
+#items-1 .square-3 {
+  margin-left: 16px;
+  margin-bottom: 32px;
+  background-color: white;
+  box-sizing: content-box;
+  text-align: center;
+}
+
+#items-1 img {
+  padding: 0px;
+  height: 230px;
+  width: 410px;
+}
+
+#items-1 .content {
+  text-align: left;
+}
+
+#items-1 h3 {
+  font-size: 31px;
+  font-family: Tahoma;
+  color: rgb(30, 51, 51);
+}
+
+#items-1 h5 {
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: Tahoma;
+  color: rgb(82, 81, 81);
+  
+}
+
+#items-1 span {
+  font-size: 23px;
+  font-weight: lighter;
+  font-family: Tahoma;
+  color: rgb(82, 81, 81);
+  
+}
+
+/* Items-2 section */
+
+#items-2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+#items-2 .square-4 {
+  margin-top: 0px;
+  margin-right: 16px;
+  background-color: white;
+  box-sizing: content-box;
+  text-align: center;
+}
+
+#items-2 .square-5 {
+  margin-top: 0px;
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: white;
+  box-sizing: content-box;
+  text-align: center;
+}
+
+#items-2 .square-6 {
+  margin-top: 0px;
+  margin-left: 16px;
+  background-color: white;
+  box-sizing: content-box;
+  text-align: center;
+}
+
+#items-2 img {
+  padding: 0px;
+  height: 230px;
+  width: 410px;
+}
+
+#items-2 .content {
+  text-align: left;
+}
+
+#items-2 h3 {
+  font-size: 31px;
+  font-family: Tahoma;
+  color: rgb(30, 51, 51);
+}
+
+#items-2 h5 {
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: Tahoma;
+  color: rgb(82, 81, 81);
+  
+}
+
+#items-2 span {
+  font-size: 23px;
+  font-weight: lighter;
+  font-family: Tahoma;
+  color: rgb(82, 81, 81);
+} 
+
+/* invisible */
+
+#invisible {
+  height: 55px;
+}
+
+#invisible p {
+  font-size: 100px;
+  color: lightgray;
+  margin-bottom: 20px;
+}
+
+/* Exhibit section */
+
+#exhibit {
+  display: flex;
+  background-color: white;
+}
+
+#exhibit-content {
+  background-color: white;
+}
+
+.exhibit-h1 {
+    font-size: 28px;
+    font-family: Tahoma;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    color: rgb(30, 51, 51);
+    text-align: center;
+}
+
+#vidpara {
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+#vidpara .content {
+  display: block;
+}
+
+#vidpara h3 {
+  font-size: 37px;
+  font-weight: medium;
+  margin-top: 37px;
+  font-family: Tahoma;
+  color: rgb(30, 51, 51);
+}
+
+#vidpara p {
+  font-size: 23px;
+  font-family: Tahoma;
+  font-weight: lighter;
+  color: rgb(57, 95, 95);
+  margin-bottom: 57px;
+}
+
+#one {
+  display: flex;
+}
+
+#one .content {
+  margin-left: 21px;
+}
+
+#one h4 {
+  font-size: 33px;
+  font-family: Tahoma;
+  color: rgb(57, 95, 95);
+}
+
+#one span {
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: Tahoma;
+  color: rgb(96, 124, 124);
+}
+
+/* Footer section */
+
+#footer .content {
+  border-top: 2px solid rgb(177, 176, 176);
+  box-sizing: content-box;
+  background-color: white
+}
+
+#footer .span{
+  font-size: 21px;
+  font-family: Tahoma;
+  color: rgb(95, 95, 95);
+  text-align: start;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+#footer .h5{
+  font-size: 21px;
+  font-weight: lighter;
+  font-family: Tahoma;
+  color: rgb(95, 95, 95);
+  text-align: end;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+  margin-right: 24px;
+}
