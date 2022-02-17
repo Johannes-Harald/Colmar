@@ -50,8 +50,7 @@
    
    - Right click on the html file and copy path and paste the link into a browser omnibox to view the website.
    
-
-   
+--- PLEASE EMAIL FEEDBACK ON THIS PROJECT TO THIS ADDRESS: > whsjuna@gmail.com ---
   
   
   
